@@ -65,7 +65,7 @@ function nextSequence() {
 function playSound(name) {
     // $(document).mouseover(
     //     function()
-    var audio = new Audio("sounds/" + name + ".mp3");
+    var audio = new Audio(name + ".mp3");
     audio.play();
 
     // ); 
